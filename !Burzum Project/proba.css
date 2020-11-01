@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+@supports (-webkit-backdrop-filter: none) {
+    a {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+} */
+
+body {
+    background-image: url("img/tloo.jpg");
+    background-size: cover;
+}
+
+#container {
+    max-width: 1920px;
+    /* margin-top: 19%; */
+    position: fixed;
+    top: 39%;
+    left: 31%;
+}
+
+/* figure {
+    display: flex;
+    justify-content: center;
+} */
+
+figure a {
+    display: block;
+    padding: 1.5em;
+    background-color: rgba(12, 12, 12, 0.60);
+    background-blend-mode: darken;
+    /* filter: contrast(5); */
+    /* -webkit-backdrop-filter: blur(7) opacity(19%); */
+}
+
+a:hover {
+    filter: brightness(8);
+    transition-duration: 0.5s;
+}
+
+figure img {
+    width: 33vw;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4vw;
+    font-weight: bold;
+    font-family: GregorianFLF;
+    background-color: rgba(12, 12, 12, 0.65);
+    padding: 0.5em;
+    width: 5em;
+    text-align: center;
+}
+
+#lista {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 1em;
+}
+
+#container ul {
+    display: flex;
+    /* width: 40%; */
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: rgba(12, 12, 12, 0.6);
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul a {
+    width: 6em;
+    background-color: rgba(63, 63, 63, 0.1);
+}
+
+nav img {
+    width: 20vw;
+}
+
+#zdj {
+    width: 17em;
+}

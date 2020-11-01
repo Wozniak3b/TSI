@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'GregorianFLF';
+    src: url('fonts/GregorianFLF.ttf') format('truetype');
+    font-family: 'ChakraPetchRegular';
+    src: url('fonts/ChakraPetchRegular.ttf') format('truetype');
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+@supports (-webkit-backdrop-filter: none) {
+    a {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+} */
+
+body {
+    background-image: url("img/tla/tloo.jpg");
+    background-size: auto;
+    max-width: 1920px;
+
+}
+
+#kontakt {
+    background-image: url("img/tla/wallpeper7.jpg");
+    background-size: auto;
+    max-width: 1920px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    /* margin-top: 19%; */
+    width: 100%;
+
+}
+
+.container0 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+figure a {
+    /* display: block; */
+    padding: 1.5em;
+    background-color: rgba(12, 12, 12, 0.65);
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* filter: contrast(5); */
+    /* -webkit-backdrop-filter: blur(7) opacity(19%); */
+}
+
+figure img {
+    width: 100%;
+}
+
+#LOGO {
+    width: 33vw;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4vw;
+    font-weight: bold;
+    font-family: GregorianFLF;
+    background-color: rgba(12, 12, 12, 0.65);
+    padding: 0.5em;
+    width: 5em;
+    text-align: center;
+}
+
+#lista {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#lista ul {
+    display: flex;
+    width: 40%;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: none;
+    width: 100%;
+    /* siemandero musisz to zmienic */
+    justify-content: center;
+}
+
+nav {
+    background-color: rgba(12, 12, 12, 0.65);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>ul a {
+    width: 6em;
+    background-color: rgba(63, 63, 63, 0.1);
+}
+
+a:hover {
+    background-color: rgba(163, 163, 163, 0.4);
+    transition-duration: 0.5s;
+}
+
+nav img {
+    width: 20vw;
+    /* margin-top: 0.5em; */
+    /*MUSISZ ZNALEŹĆ INNE ROZWIĄZANIE*/
+}
+
+#zdj {
+    width: 17em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: rgba(75, 75, 75, 0.6);
+    display: flex;
+    align-items: center;
+    width: 75%;
+    padding: 1em;
+    /* margin: auto; */
+    margin-top: 7em;
+
+}
+
+.formularz {
+    background-color: rgba(238, 238, 238, 0.8);
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+    padding: 0;
+    width: 50%;
+
+}
+
+.formularz>section {
+    width: 100%;
+}
+
+header {
+    font-size: 0.9vw;
+}
+
+.formularz>section>img {
+    width: 50vw;
+}
+
+.formularz header {
+    margin-top: 1.5em;
+    font-family: "ChakraPetchRegular";
+    text-align: center;
+}
+
+form {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    font-family: "ChakraPetchRegular";
+    font-size: 0.8vw;
+}
+
+label {
+    width: 100%;
+    padding: 0.6em;
+    margin-top: 0.5em;
+    display: block;
+    box-shadow: 10px 7px 10px rgba(12, 12, 12, 0.37);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+input {
+    font-family: "ChakraPetchRegular";
+    padding: 1em;
+    width: 100%;
+    font-size: 0.7vw;
+}
+
+
+#com {
+    /* height: 10vh; */
+    resize: none;
+    font-family: "ChakraPetchRegular";
+    padding: 1em;
+    width: 100%;
+    font-size: 0.7vw;
+}
+
+#send {
+    font-size: 0.7vw;
+    font-weight: bold;
+    width: 35%;
+    padding: 0.6em;
+    margin-top: 0.8em;
+    background-color: rgba(26, 114, 172, 0.452);
+}
+
+#wizytowka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wizytowka>aside {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 0;
+    font-family: "ChakraPetchRegular";
+    width: 37%;
+    font-size: 0.8vw;
+}
+
+#wizytowka p {
+    box-shadow: 10px 7px 10px rgba(12, 12, 12, 0.37);
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1em;
+    width: 90%;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#wizytowka figure {
+    box-shadow: 10px 7px 10px rgba(12, 12, 12, 0.37);
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+#ja {
+    object-fit: fill;
+}
+
+section {
+    width: 60%;
+}
+
+
+article {
+    background-color: rgba(238, 238, 238, 0.8);
+    padding: 1.5em;
+    font-size: 1.02vw;
+    font-family: ChakraPetchRegular;
+}
+
+article:nth-of-type(2) {
+    margin-top: 1em;
+}
+
+aside {
+    margin-left: 1.5em;
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside>figure {
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 0.4em;
+    background-color: rgba(12, 12, 12, 0.65);
+    width: 20em;
+    font-size: 1vw;
+    text-align: center;
+    font-family: ChakraPetchRegular;
+    color: #fff;
+    font-weight: bold;
+}
