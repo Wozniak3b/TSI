@@ -9,7 +9,7 @@
 header {
     background-color: #ffed92;
     border: 2px solid #fe7b0d;
-    /* border-radius: 0.5em; */
+    border-radius: 0.4em;
     padding: 0.8em;
     margin-bottom: 1em;
 }
@@ -17,6 +17,7 @@ header {
 nav {
     background-color: #ffed92;
     border: 2px solid #fe7b0d;
+    border-radius: 0.4em;
     padding: 0.8em;
     margin-bottom: 1em;
 }
@@ -28,6 +29,7 @@ ul {
 main {
     background-color: #ffed92;
     border: 2px solid #fe7b0d;
+    border-radius: 0.4em;
     padding: 1em;
     margin-bottom: 1em;
 }
@@ -40,6 +42,7 @@ h2 {
 aside {
     background-color: #ffed92;
     border: 2px solid #fe7b0d;
+    border-radius: 0.4em;
     padding: 0.8em;
     margin-bottom: 1em;
 }
@@ -47,6 +50,7 @@ aside {
 section {
     background-color: #ffed92;
     border: 2px solid #fe7b0d;
+    border-radius: 0.4em;
     padding: 0.8em;
     margin-bottom: 1em;
 }
@@ -54,6 +58,7 @@ section {
 footer {
     background-color: #ffed92;
     border: 2px solid #fe7b0d;
+    border-radius: 0.4em;
     padding: 0.8em;
 }
 
