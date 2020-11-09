@@ -1,1 +1,48 @@
 /* breakpointy: 640, 1024 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-bottom: 1em;
+}
+
+header {
+    background-color: #ffed92;
+    border: 1px solid #fe7b0d;
+    padding: 1em;
+}
+
+nav {
+    background-color: #ffed92;
+    border: 1px solid #fe7b0d;
+    padding: 1em;
+}
+
+
+main {
+    background-color: #ffed92;
+    border: 1px solid #fe7b0d;
+    padding: 1em;
+}
+
+aside {
+    background-color: #ffed92;
+    border: 1px solid #fe7b0d;
+    padding: 1em;
+}
+
+section {
+    background-color: #ffed92;
+    border: 1px solid #fe7b0d;
+    padding: 1em;
+}
+
+footer {
+    background-color: #ffed92;
+    border: 1px solid #fe7b0d;
+    padding: 1em;
+}
