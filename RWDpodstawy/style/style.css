@@ -80,4 +80,9 @@ footer {
     main {
         grid-area: 3/2/4/3;
     }
+
+    section {
+        /* grid-area: 4/1/-1/2; */
+        margin-bottom: 0;
+    }
 }
