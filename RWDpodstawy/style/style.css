@@ -8,14 +8,14 @@
 
 header {
     background-color: #ffed92;
-    border: 1px solid #fe7b0d;
+    border: 2px solid #fe7b0d;
     padding: 0.8em;
     margin-bottom: 1em;
 }
 
 nav {
     background-color: #ffed92;
-    border: 1px solid #fe7b0d;
+    border: 2px solid #fe7b0d;
     padding: 0.8em;
     margin-bottom: 1em;
 }
@@ -26,7 +26,7 @@ ul {
 
 main {
     background-color: #ffed92;
-    border: 1px solid #fe7b0d;
+    border: 2px solid #fe7b0d;
     padding: 1em;
     margin-bottom: 1em;
 }
@@ -38,21 +38,21 @@ h2 {
 
 aside {
     background-color: #ffed92;
-    border: 1px solid #fe7b0d;
+    border: 2px solid #fe7b0d;
     padding: 0.8em;
     margin-bottom: 1em;
 }
 
 section {
     background-color: #ffed92;
-    border: 1px solid #fe7b0d;
+    border: 2px solid #fe7b0d;
     padding: 0.8em;
     margin-bottom: 1em;
 }
 
 footer {
     background-color: #ffed92;
-    border: 1px solid #fe7b0d;
+    border: 2px solid #fe7b0d;
     padding: 0.8em;
 }
 
@@ -60,7 +60,8 @@ footer {
     .container {
         display: grid;
         grid-template-columns: 30% 70%;
-        grid-template-rows: 10% 10% 70% 10%;
+        /* grid-template-rows: 10% 10% 70% 10%; */
+        grid-template-rows: 2fr 2fr 6fr 2fr;
         column-gap: 1em;
     }
 
@@ -85,4 +86,46 @@ footer {
         /* grid-area: 4/1/-1/2; */
         margin-bottom: 0;
     }
+}
+
+@media (min-width:1024px) {
+    .container {
+        grid-template-columns: 15% 65% 20%;
+        /* grid-template-rows: 10% 35% 35% 10%; */
+        grid-template-rows: 2fr 4fr 4fr 2fr;
+        column-gap: 1em;
+    }
+
+    header {
+        grid-area: 1/1/2/-1;
+    }
+
+    nav {
+        grid-area: 2/1/4/2;
+        /* margin: 0; */
+    }
+
+    ul {
+        display: block;
+    }
+
+    main {
+        grid-area: 2/2/4/3;
+    }
+
+    aside {
+        grid-area: 2/3/3/-1;
+    }
+
+    section {
+        grid-area: 3/3/4/-1;
+        margin-bottom: 1em;
+
+    }
+
+    footer {
+        grid-area: 4/1/5/-1;
+    }
+
+
 }
