@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl-Pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jakub Woźniak">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style/main.css">
+    <title>Pasieka JuMi</title>
+</head>
+<body>
+    <div class="container">
+
+            <nav class="navigation">
+                <ul class="menu-bar">
+                    <li class="hamburger-act"><a class="hamburger-act__link" onclick="menu1();"><img src="img/burger1.png"></a></li>
+                    <li class="menu-bar__element"><a class="menu-bar__link" href="#"><img class="hexagon" src="img/miut.png" alt="odn1"></a></li>
+                    <li class="menu-bar__element"><a class="menu-bar__link" href="#"><img class="hexagon" src="img/miut.png" alt="odn1"></a></li>
+                    <li class="menu-bar__element"><a class="menu-bar__link" href="#"><img class="hexagon" src="img/miut.png" alt="odn1"></a></li>
+                    <li class="menu-bar__element--active"><a class="menu-bar__link--hidden" href="#">Pasieka JuMi</a></li>
+                    <li class="menu-bar__element"><a class="menu-bar__link" href="#"><img class="hexagon" src="img/miut.png" alt="odn1"></a></li>
+                    <li class="menu-bar__element"><a class="menu-bar__link" href="#"><img class="hexagon" src="img/miut.png" alt="odn1"></a></li>
+                    <li class="menu-bar__element"><a class="menu-bar__link" href="#"><img class="hexagon" src="img/miut.png" alt="odn1"></a></li>
+                </ul>
+
+                <ul id="burger" class="burger-menu">
+                    <li class="burger-menu__element"><a class="burger-menu__link" href="#">ODNOSNIK1</a></li>
+                    <li class="burger-menu__element"><a class="burger-menu__link" href="#">ODNOSNIK2</a></li>
+                    <li class="burger-menu__element"><a class="burger-menu__link" href="#">ODNOSNIK3</a></li>
+                    <li class="burger-menu__element"><a class="burger-menu__link" href="#">ODNOSNIK4</a></li>
+                    <li class="burger-menu__element"><a class="burger-menu__link" href="#">ODNOSNIK5</a></li>
+                    <li class="burger-menu__element"><a class="burger-menu__link" href="#">ODNOSNIK6</a></li>
+                </ul>
+
+                <figure class="logo"><a class="logo__picture" href="index.html"><img src="img/jumi.png"></a></figure>
+            </nav>
+
+
+        <main class="content">
+            <h2 class="content__heading">Witaj na stronie Pasieki JuMi!</h2>
+            
+            <article class="welcome-article">
+                    <p class="welcome-article__description">JuMi oferuję miód i produkty pszczele z własnej pasieki. W swojej ofercie ma ciekawe miody niszowe. Zapraszamy do zakupów!
+                    Recusandae omnis et repellendus suscipit non 
+                    voluptatibus impedit. Perferendis praesentium similique atque, sequi vitae aliquam recusandae
+                    ipsum dolore debitis? Recusandae iure reprehenderit nisi natus. Consectetur sequi vel placeat 
+                    aperiam quo quidem corrupti et ut? Consequuntur nemo, ipsa sequi tenetur, reiciendis asperiores orrupti dolorum eveniet inventore fugiat, recusandae omnis et repellendus suscipit non 
+                    voluptatibus impedit. Perferendis praesentium similique atque, sequi vitae aliquam recusandae
+                    ipsum dolore debitis? Recusandae iure reprehenderit nisi natus. Consectetur sequi vel placeat 
+                    aperiam quo quidem corrupti et ut? 
+                    </p>
+                    <figure class="welcome-article__picture">
+                        <img src="img/pasieka.jpg" alt="zdjecie-pasieki">
+                    </figure>
+            </article>
+
+                <article class="info">
+                    <figure class="info__picture">
+                        <img src="img/test.jpg" alt="zdjecia-miodu">
+                    </figure>
+                    <p class="info__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ullam laborum, 
+                    placeat libero quisquam voluptatibus possimus ducimus eius fugit deserunt voluptas 
+                    beatae maxime dolor illo earum, laboriosam numquam dolorum. Reprehenderit eligendi 
+                    necessitatibus cum molestiae ut sed labore temporibus ipsum beatae quasi placeat dolorum 
+                    aspernatur enim eum reiciendis velit perferendis tempora, vero quo id earum. Ducimus iste 
+                    id, dolorem rem distinctio velit voluptates doloremque est, quasi ratione consectetur, 
+                    quaerat repellendus consequuntur. Sapiente maiores voluptatum quos fuga, tenetur perferendis 
+                    labore atque. Alias dignissimos dolorum nostrum perferendis, eveniet saepe nisi mollitia 
+                    vitae inventore, esse modi sequi! Necessitatibus qui facilis repellendus. Laboriosam, 
+                    accusantium doloremque.</p>
+                </article>
+
+        </main>
+
+        <footer class="contact-footer">
+            <h3 class="contact-footer__heading">Skontaktuj się z nami tutaj:</h3>
+            <iframe class="contanct-footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1604.2060330505572!2d18.639057183669625!3d50.258557997431204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471130d2ca710957%3A0x8f5637c28967f3fa!2sWi%C5%9Bniowa%205%2C%2044-144%20%C5%BBernica!5e1!3m2!1spl!2spl!4v1615149810287!5m2!1spl!2spl" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+            <form action="#" method="POST" class="contact">
+                <label for="name" class="contact__element">Dane Osobowe
+                    <input class="contact__input" type="text" name="name" required placeholder="Imię i Nazwisko">
+                </label>
+                <label for="email" class="contact__element">E-mail
+                    <input class="contact__input" type="email" required name="email" placeholder="E-mail">
+                </label>
+                <label for="phone" class="contact__element">Telefon
+                    <input class="contact__input" type="tel" name="phone" placeholder="Numer telefonu [111-111-111]">
+                </label>
+                <label for="comment" class="contact__element">Treść
+                    <textarea class="contact__input contact__comment " name="comment" id="com" required autocapitalize="sentences" rows="2"
+                        placeholder="Czekamy na twoją wiadomość!"></textarea>
+                </label>
+                <input class="contact__button" type="submit" value="Wyślij" id="send">
+            </form>
+        </footer>
+        
+        
+    </div>
+
+    <script>
+        function menu1(){
+            let y = document.getElementById("burger");
+
+            if(y.style.display!="block")
+                y.style.display = "block";
+            else
+                y.style.display ="none";
+
+        }
+    </script>
+</body>
+</html>

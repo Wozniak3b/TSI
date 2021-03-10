@@ -1,0 +1,44 @@
+@media (min-width: 1024px) {
+  .hexagon {
+    width: 10vw;
+  }
+  .logo {
+    left: 45%;
+  }
+  .logo__picture img {
+    width: 10vw;
+  }
+  .content {
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  .content__heading {
+    font-size: 2vw;
+  }
+  .welcome-article,
+  .info {
+    font-size: 1.5vw;
+  }
+  .welcome-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .welcome-article__description {
+    width: 50%;
+  }
+  .welcome-article__picture {
+    width: 40%;
+    margin-top: 1%;
+  }
+  .contact-footer__heading {
+    margin: 0;
+  }
+  iframe {
+    height: 45vh;
+  }
+}
+/*# sourceMappingURL=1024px.css.map */

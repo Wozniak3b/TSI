@@ -1,0 +1,18 @@
+scss
+
+$text-color: rgb costam
+@import '/folder/plik';     --> importujemy do pliku inne arkusze styli, zeby nie musial osobno ladowac
+
+%typography{		    --> tworzymy rozszerzenie
+	font-size:2.5em;
+	font-family: alla;
+}
+
+@extend %typography;	    --> przypisujemy
+
+@mixin typography ($size, $family){	    --> tworzymy rozszerzenie (mniej kodu)
+	font-size:$size;
+	font-family: $family;
+}
+
+@include typography(2.5em, $font);

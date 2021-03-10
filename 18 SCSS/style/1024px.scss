@@ -1,0 +1,55 @@
+@media (min-width: 1024px) {
+    .hexagon {
+        width: 10vw;
+    }
+
+    .logo {
+        left: 45%;
+
+        &__picture {
+
+            img {
+                width: 10vw;
+            }
+        }
+    }
+
+    .content {
+        margin-top: 6%;
+        margin-bottom: 6%;
+
+        &__heading {
+            font-size: 2vw;
+        }
+    }
+
+    .welcome-article,
+    .info {
+        font-size: 1.5vw;
+    }
+
+    .welcome-article {
+        display: flex;
+        justify-content: space-between;
+
+        &__description {
+            width: 50%;
+        }
+
+        &__picture {
+            width: 40%;
+            margin-top: 1%;
+        }
+    }
+
+    .contact-footer {
+        &__heading {
+            margin: 0;
+        }
+    }
+
+    iframe {
+        height: 45vh;
+    }
+
+}

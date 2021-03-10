@@ -1,0 +1,58 @@
+@media (min-width: 1280px) {
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu-bar {
+    width: 80%;
+  }
+  .hexagon {
+    width: 7vw;
+  }
+  .logo {
+    left: 45.5%;
+    top: 38%;
+  }
+  .logo__picture img {
+    width: 9vw;
+  }
+  .content {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+  }
+  .content__heading {
+    font-size: 1.5vw;
+  }
+  .welcome-article,
+  .info {
+    font-size: 1.1vw;
+  }
+  .welcome-article__description {
+    width: 60%;
+  }
+  .welcome-article__picture {
+    margin-top: 0;
+    width: 30%;
+  }
+  .info__picture {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .contact-footer__heading {
+    font-size: 1.5vw;
+  }
+  iframe {
+    width: 35%;
+    height: 25vw;
+  }
+  .contact {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=1280px.css.map */

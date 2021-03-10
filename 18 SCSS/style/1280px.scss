@@ -1,0 +1,81 @@
+@media (min-width: 1280px) {
+    .navigation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-bar {
+        width: 80%;
+    }
+
+    .hexagon {
+        width: 7vw;
+    }
+
+    .logo {
+        left: 45.5%;
+        top: 38%;
+
+        &__picture {
+
+            img {
+                width: 9vw;
+            }
+        }
+    }
+
+    .content {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 70%;
+
+        &__heading {
+            font-size: 1.5vw;
+        }
+    }
+
+    .welcome-article,
+    .info {
+        font-size: 1.1vw;
+    }
+
+    .welcome-article {
+
+        &__description {
+            width: 60%;
+        }
+
+        &__picture {
+            margin-top: 0;
+            width: 30%;
+        }
+    }
+
+    .info {
+
+        &__picture {
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+    }
+
+
+    .contact-footer {
+        &__heading {
+            font-size: 1.5vw;
+        }
+    }
+
+    iframe {
+        width: 35%;
+        height: 25vw;
+    }
+
+    .contact {
+        width: 60%;
+    }
+
+
+
+}
