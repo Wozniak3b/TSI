@@ -1,0 +1,17 @@
+<label for="model" id="model"
+            >Model:&ThickSpace;
+            <select name="model">
+              <?php
+              $baza=@mysqli_connect("localhost","root","","hasbulla");
+              $producent = array("Dell", "Asus","Acer","HP","Lenovo","MSI");
+
+              for($i=0;$i<=5;$i++){
+                $query = "SELECT * FROM $producent[$i]";
+                $result = mysqli_query($baza,$query);
+                ?><optgroup label="<?php echo $producent[$i];?>"><?php 
+                for($j=0;$j<(mysqli_num_rows($result));$j++){
+                ?><option><?php echo mysqli_fetch_row($result)[1]; ?></option><?php  
+            }?></optgroup><?php }?>
+
+            </select>
+          </label>
